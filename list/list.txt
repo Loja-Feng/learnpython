@@ -1,0 +1,18 @@
+#定义一个list
+classmates = ['Michael', 'Bob', 'Tracy']
+#求list的长度
+len(classmates)
+#根据下标取list中的元素，下标从零开始,如取第三个元素
+classmates[2]
+#list中追加元素
+classmates.append('Adam')
+#list中指定下标添加元素
+classmates.insert(1,'Jack')
+#list中删除末尾元素
+classmates.pop()
+#list中删除指定下标元素,如删除第二个元素
+classmates.pop(1)
+#list中指定下标位置赋值
+classmates[1] = 'Sarah'
+#list中的元素也可以是list
+s = ['python', 'java', ['asp', 'php'], 'scheme']
